@@ -2,7 +2,6 @@
  words = ["eat", "tea", "tan", "ate", "nat", "bat"]
 result = {"eat": [], "tan": [], "bat": []}
 
-# Create a map of sorted keys for result dictionary
 key_map = {key: ''.join(sorted(key)) for key in result}
 
 for word in words:
@@ -13,3 +12,4 @@ for word in words:
             break
 
 print(result)
+
